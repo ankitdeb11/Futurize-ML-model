@@ -181,7 +181,7 @@ const Features = () => {
 
 
 
-                {/* AREA FOR HEALTHSURE PROJECT  */}
+         {/* Area for Feature 3 from here  */}
 
 
                 <div className="features__content">
@@ -202,7 +202,7 @@ const Features = () => {
                         <div className="features__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times features__modal-close"></i>
 
-                            <h3 className="features__modal-title">HealthSure</h3>
+                            <h3 className="features__modal-title">Feature 3 - Lorem, ipsum dolor.</h3>
                             <p className="features__modal-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum culpa est blanditiis.</p>
 
 

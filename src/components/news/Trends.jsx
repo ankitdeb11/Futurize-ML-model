@@ -1,0 +1,47 @@
+import React from 'react';
+import "./news.css";
+
+const Trends = () => {
+    return (
+
+        <div className="news__trends">
+
+
+            <div className="news__content">
+
+
+                <div className="news__list grid">
+                    <ul className='news__title'>Breaking News <i class="uil uil-newspaper"></i>
+
+
+
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
+  
+
+                    </ul>
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+    )
+}
+
+export default Trends

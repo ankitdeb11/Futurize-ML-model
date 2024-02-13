@@ -1,0 +1,17 @@
+.news__container{
+ grid-template-columns: repeat(2, 390px);
+    column-gap: 1.8rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.news__trends{
+    padding: 40px 20px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+}
+
+.detection__content{
+    
+}
