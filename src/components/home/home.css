@@ -33,10 +33,11 @@
 .home__title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
+    color: white;
 }
 
 
-.home__img{
+.home__img {
     background: url(../../assets//mainpc.png);
     background-position: -165px 10px;
     background-size: cover;
@@ -61,6 +62,7 @@
     font-size: var(--h4-font-size);
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
+    color: rgb(190, 190, 190);
     height: 30px;
 }
 
@@ -70,3 +72,46 @@
 
 }
 
+
+
+
+
+.home__scroll {
+    margin-left: 9.25rem;
+
+}
+
+.wheel {
+    animation: scroll 2s ease infinite;
+
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0);
+
+    }
+
+
+    30% {
+        transform: translateY(3.75rem);
+
+    }
+}
+
+.home__scroll-name {
+    color: blueviolet;
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+    margin-left: 2px;
+
+}
+
+
+.home__scroll-arrow {
+    font-size: 1.25rem;
+    /* color: var(--title-color); */
+    color: white;
+
+}

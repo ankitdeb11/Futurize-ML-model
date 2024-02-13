@@ -10,7 +10,7 @@ const Header = () => {
 
                 <a href="#indexhtml" className="nav__logo">
                     <img src={MainLogo} alt="" />
-                    Futurize
+                    {/* Futurize */}
                 </a>
 
                 <div className="nav__menu">
@@ -23,21 +23,22 @@ const Header = () => {
 
 
                         <li className="nav__item">
-                            <a href="#market" className="nav__link">Market</a>
-                        </li>
-
-
-
-
-                        <li className="nav__item">
                             <a href="#features" className="nav__link">Features</a>
                         </li>
 
 
 
+    
+
                         <li className="nav__item">
                             <a href="#news" className="nav__link">News</a>
                         </li>
+
+
+                        <li className="nav__item">
+                            <a href="#market" className="nav__link">Market</a>
+                        </li>
+
 
 
 

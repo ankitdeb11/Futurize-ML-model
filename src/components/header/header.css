@@ -9,7 +9,7 @@
 
 .nav {
     list-style: none;
-    height: calc(var(--header-height) + 1.5rem);
+    height: calc(var(--header-height) + 2.5rem);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +38,6 @@
     font-size: var(--small-font-size);
     color: white;
     font-weight: var(--font-medium);
-    transition: .3s;
 
 }
 
@@ -48,7 +47,7 @@
 
 
 .nav__logo img{
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     margin-right: 2px;
 }
