@@ -1,5 +1,7 @@
 import React from 'react';
 import "./home.css";
+import { FaInstagram, FaStackOverflow } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 
 const Socials = () => {
   return (
@@ -9,15 +11,15 @@ const Socials = () => {
 
 
       <a href="https://www.instagram.com/" className="home__social-icon" rel="noreferrer" target="_blank">
-      <i class='bx bxl-instagram' ></i> Insta
+      <FaInstagram />
       </a>
 
       <a href="https://www.linkedin.com/in/ankitdeb11" className="home__social-icon" target="_blank" rel="noreferrer">
-      <i class='bx bxl-linkedin-square' ></i> Linked IN
+      <FaGithub />
       </a>
 
       <a href="https://github.com/ankitdeb11" className="home__social-icon" target="_blank" rel="noreferrer">
-      <i class='bx bxl-github' ></i> GitHub
+      <FaStackOverflow />
       </a>
 
 

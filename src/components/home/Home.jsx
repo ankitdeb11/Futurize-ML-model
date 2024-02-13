@@ -10,10 +10,7 @@ const Home = () => {
 
 
                 <div className="home__content grid">
-
-
                     <Socials />
-
 
                     {/* Futurize Photo  */}
                     <div className="home__img"></div>

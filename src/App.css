@@ -153,17 +153,16 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  /* background-color: var(--title-color); */
-  background-color: #0D6ECE;
+  background-color: blueviolet;
   color: var(--container-color);
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
-  transition: all 0.2s ease-in-out;
+
 }
 
 .button:hover {
-  background-color: #003d79;
+  background-color: rgb(88, 0, 165);
 }
 
 .button__icon {

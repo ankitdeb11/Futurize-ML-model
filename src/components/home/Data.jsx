@@ -3,13 +3,13 @@ import React from 'react'
 const Data = () => {
     return (
         <div className="home__data">
-            <h1>Futurize</h1>
+            <h1 className='home__title'>Futurize</h1>
 
             <h3 className="home__subtitle">
-                <span>ML Model</span>
+                <span>Market Based Automated Analysis System</span>
             </h3>
 
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate debitis ducimus maxime labore facere vel autem laborum reiciendis blanditiis? Atque.</p>
+            <p className='home__description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate debitis ducimus maxime labore facere vel autem laborum reiciendis blanditiis? Atque.</p>
 
             <a href="#getStarted" className="button button--flex">
                 Get Started
