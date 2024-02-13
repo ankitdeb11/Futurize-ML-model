@@ -86,8 +86,8 @@ textarea {
 }
 
 body {
-  /* background-color: var(--body-color); */
-  background-color: #fff;
+
+  background-color: #02001b;
   color: var(--text-color);
 }
 

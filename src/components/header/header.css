@@ -21,6 +21,8 @@
 .nav__logo {
     color: white;
     font-weight: var(--font-medium);
+    display: flex;
+
 }
 
 .nav__list {
@@ -38,4 +40,15 @@
     font-weight: var(--font-medium);
     transition: .3s;
 
+}
+
+.nav__link:hover{
+    color: blueviolet;
+}
+
+
+.nav__logo img{
+    width: 25px;
+    height: 25px;
+    margin-right: 2px;
 }
