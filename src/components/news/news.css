@@ -12,16 +12,16 @@
     padding: 40px 20px;
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 10px;
-    
+
 }
 
-.news__title  {
+.news__title {
     color: white;
     padding: 2px 2px;
     font-size: 1rem;
 }
 
-.news__title li{
+.news__title li {
     color: gray;
     padding: 5px 0;
     font-size: var(--smaller-font-size);
@@ -39,7 +39,7 @@
 }
 
 
-.detection__button{
+.detection__button {
     color: gray;
     font-size: 0.7rem;
     display: inline-flex;
@@ -51,7 +51,10 @@
 .detection__icon {
     color: white;
     font-size: 2rem;
+ 
 }
+
+
 
 .detection__tool-name {
     color: white;

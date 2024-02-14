@@ -89,6 +89,12 @@ body {
 
   background-color: #02001b;
   color: var(--text-color);
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
+
 }
 
 h1,
@@ -174,5 +180,3 @@ img {
   display: inline-flex;
   align-items: center;
 }
-
-
