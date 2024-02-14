@@ -73,6 +73,23 @@
 }
 
 
+.home__data h1{
+    color: black;
+    background: url(../../assets//striped_blue.jpg);
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s ease-in-out alternate infinite;
+}
+
+@keyframes back {
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+
 
 
 

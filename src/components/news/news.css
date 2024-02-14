@@ -1,17 +1,74 @@
-.news__container{
- grid-template-columns: repeat(2, 390px);
+.news__container {
+    grid-template-columns: repeat(2, 390px);
     column-gap: 1.8rem;
     align-items: center;
     justify-content: space-evenly;
 }
 
 
-.news__trends{
+.news__trends {
     padding: 40px 20px;
     border: 2px solid rgba(255, 255, 255, 1);
-    border-radius: 20px;
+    border-radius: 10px;
+    
 }
 
-.detection__content{
-    
+.news__title  {
+    color: white;
+    padding: 2px 2px;
+    font-size: 1rem;
+}
+
+.news__title li{
+    color: gray;
+    padding: 5px 0;
+    font-size: var(--smaller-font-size);
+
+}
+
+
+
+
+
+
+/* Detection CSS from here  */
+
+.detection__lining {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 10px;
+}
+
+.detection__content {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 5px 24px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
+}
+
+
+.detection__button{
+    color: gray;
+    font-size: var(--smaller-font-size);
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    cursor: pointer;
+}
+
+
+.detection__icon {
+    color: white;
+    font-size: 2rem;
+}
+
+.detection__tool-name {
+    color: white;
 }

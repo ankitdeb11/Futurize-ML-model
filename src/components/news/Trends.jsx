@@ -15,13 +15,13 @@ const Trends = () => {
 
 
 
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
-  
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
+
 
                     </ul>
 
