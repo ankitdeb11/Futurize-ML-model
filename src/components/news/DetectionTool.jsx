@@ -21,7 +21,7 @@ const DetectionTool = () => {
 
 
 
-          <span className='detection__button'>Learn more
+          <span className='detection__button'>Try now
             <i className="uil uil-arrow-right news__button-icon"></i>
           </span>
 

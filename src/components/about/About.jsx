@@ -14,121 +14,137 @@ const About = () => {
             <h2 className="section__title">About Us</h2>
             <span className="section__subtitle">Meet the Dream Team - your Support System</span>
 
+
+
             <div className="about__container container">
 
-                <div className="about__sections">
-
-                    <div className="about__content">
-
-                        <div className="about__data">
-                            <h3 className="about__title">Ankit Deb</h3>
-                            <span>Front End Developer</span>
-
-                            <div className="about__info">
-                                <img src={FrontEnd} alt="" />
-                                <p className="about__description">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, ullam.
-                                </p>
-                            </div>
+                <div className="about__box">
 
 
 
+
+                    {/* Ankit Deb Part from here  */}
+                    <img src={FrontEnd} alt="" className="about__img-top" />
+                    <div className="about__vertical">
+
+                        <div className="about__vertical-name">
+                            Ankit Deb
+                        </div>
+
+                        <div className="about__vertical-title">
+                            Front End Developer
                         </div>
 
 
-
-
-
-                        <div className="about__data">
-                            <h3 className="about__title">Surajkumar S</h3>
-                            <span>Back End Developer</span>
-
-                            <div className="about__info">
-                                <img src={BackEnd} alt="" />
-                                <p className="about__description">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, ullam.
-                                </p>
-                            </div>
-
-
-
+                        <div className="about__vertical-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint est ipsum nemo fugiat quo nesciunt distinctio laudantium laborum architecto.
                         </div>
-                        
-
-
-
-
-
-
-                        <div className="about__data">
-                            <h3 className="about__title">Ajinkya Deokate</h3>
-                            <span>ML Developer</span>
-
-                            <div className="about__info">
-                                <img src={MLDev} alt="" />
-                                <p className="about__description">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, ullam.
-                                </p>
-                            </div>
-
-
-
-                        </div>
-                        
-
-
-
-
-
-
-                        <div className="about__data">
-                            <h3 className="about__title">Aditya Ojha</h3>
-                            <span>ML Developer</span>
-
-                            <div className="about__info">
-                                <img src={MLDev} alt="" />
-                                <p className="about__description">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, ullam.
-                                </p>
-                            </div>
-
-
-
-                        </div>
-                        
-
-
-
-
-
-
-                        <div className="about__data">
-                            <h3 className="about__title">Prasad Deshmukh</h3>
-                            <span>Python Developer</span>
-
-                            <div className="about__info">
-                                <img src={Python} alt="" />
-                                <p className="about__description">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, ullam.
-                                </p>
-                            </div>
-
-
-
-                        </div>
-                        
-
-                        
-
-
-
-
                     </div>
 
 
+
+
+                    {/* Surajkumar S Part from here  */}
+
+                    <img src={BackEnd} alt="" className="about__img-top" />
+                    <div className="about__vertical">
+
+                        <div className="about__vertical-name">
+                            Surajkumar Sikchi
+                        </div>
+
+                        <div className="about__vertical-title">
+                            Back End Developer
+                        </div>
+
+
+                        <div className="about__vertical-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint est ipsum nemo fugiat quo nesciunt distinctio laudantium laborum architecto.
+                        </div>
+                    </div>
+
+
+
+
+
+                    {/* Ajinkya Deokate Part from here  */}
+
+                    <img src={MLDev} alt="" className="about__img-top" />
+                    <div className="about__vertical">
+
+                        <div className="about__vertical-name">
+                            Ajinkya Deokate
+                        </div>
+
+                        <div className="about__vertical-title">
+                            Machine Learning Developer
+                        </div>
+
+
+                        <div className="about__vertical-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint est ipsum nemo fugiat quo nesciunt distinctio laudantium laborum architecto.
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    {/* Aditya Ojha Part from here  */}
+
+
+
+                    <img src={MLDev} alt="" className="about__img-top" />
+                    <div className="about__vertical">
+
+                        <div className="about__vertical-name">
+                            Aditya Ojha
+                        </div>
+
+                        <div className="about__vertical-title">
+                            Machine Learning Developer
+                        </div>
+
+
+                        <div className="about__vertical-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint est ipsum nemo fugiat quo nesciunt distinctio laudantium laborum architecto.
+                        </div>
+                    </div>
+
+
+
+
+                    {/* Prasad Deshmukh Part from here  */}
+
+
+                    <img src={Python} alt="" className="about__img-top" />
+                    <div className="about__vertical">
+
+                        <div className="about__vertical-name">
+                            Prasad Deshmukh
+                        </div>
+
+                        <div className="about__vertical-title">
+                            Python Developer
+                        </div>
+
+
+                        <div className="about__vertical-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint est ipsum nemo fugiat quo nesciunt distinctio laudantium laborum architecto.
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
                 </div>
-
-
 
 
 
