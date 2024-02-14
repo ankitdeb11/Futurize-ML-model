@@ -2,8 +2,8 @@ import React from 'react';
 import "./footer.css";
 
 const Footer = () => {
-  return (
-    <footer>
+    return (
+        <footer>
             <div className="footer__container container">
                 <h1 className="footer__title">Thanks for passing by. Happy Investing!</h1>
 
@@ -20,9 +20,13 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                    <a href="https://stackoverflow.com/users/18478837/ankit-deb" className="footer__social-link" rel="noreferrer" target="_blank">
-                    <i class='bx bxl-stack-overflow' ></i>
+
+
+                    <a href="instagram.com" className="footer__social-link" target="_blank" rel="noreferrer">
+                        <i class='bx bxl-instagram' ></i>
                     </a>
+
+
 
                     <a href="https://discord.gg/Uf8KpEnwuH" className="footer__social-link" target="_blank" rel="noreferrer">
                         <i class='bx bxl-discord-alt' ></i>
@@ -32,18 +36,20 @@ const Footer = () => {
                         <i class='bx bxl-twitter' ></i>
                     </a>
 
+
+
                 </div>
 
 
-                <span className='footer__copy'> 
-                Futurize Prototype. <br />
-                Made with <i class='bx bxl-react'></i> by Team 96 - VIT <br />
-                &#169; Ankit Deb 2024. All Rights Reserved.
+                <span className='footer__copy'>
+                    Futurize Prototype. <br />
+                    Made with <i class='bx bxl-react'></i> by Team 96 - VIT <br />
+                    &#169; Ankit Deb 2024. All Rights Reserved.
                 </span>
 
             </div>
         </footer>
-  )
+    )
 }
 
 export default Footer
