@@ -1,8 +1,10 @@
 .news__container {
-    grid-template-columns: repeat(2, 390px);
+    /* grid-template-columns: repeat(2, 390px); */
+    display: flex;
     column-gap: 1.8rem;
     align-items: center;
-    justify-content: space-evenly;
+    padding: 0px 50px;
+    justify-content: space-around;
 }
 
 
@@ -28,26 +30,9 @@
 
 
 
-
-
-
-/* Detection CSS from here  */
-
-.detection__lining {
-    width: 300px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border: 2px solid rgba(255, 255, 255, 1);
-    border-radius: 10px;
-}
-
 .detection__content {
-    width: 250px;
-    height: 150px;
-    display: flex;
-    align-items: center;
+    width: 200px;
+    height: 140px;
     padding: 5px 24px;
     border: 1px solid rgba(255, 255, 255, 1);
     border-radius: 5px;
@@ -56,9 +41,8 @@
 
 .detection__button{
     color: gray;
-    font-size: var(--smaller-font-size);
+    font-size: 0.7rem;
     display: inline-flex;
-    align-items: center;
     column-gap: 0.25rem;
     cursor: pointer;
 }
@@ -71,4 +55,5 @@
 
 .detection__tool-name {
     color: white;
+    font-size: var(--smaller-font-size);
 }

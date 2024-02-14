@@ -29,7 +29,7 @@ const Features = () => {
 
                     <div>
                         <i className="uil uil-building features__icon"></i>
-                        <h3 className="features__title">Feature 1 - Lorem, ipsum dolor.</h3>
+                        <h3 className="features__title">Feature 1 - Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
 
                     </div>
 
@@ -111,7 +111,7 @@ const Features = () => {
 
                     <div>
                         <i className="uil uil-chart-growth features__icon"></i>
-                        <h3 className="features__title">Feature 2- Lorem, ipsum dolor.</h3>
+                        <h3 className="features__title">Feature 2- Lorem ipsum, dolor sit amet consectetur adipisicing..</h3>
 
                     </div>
 
@@ -190,7 +190,7 @@ const Features = () => {
 
                     <div>
                         <i className="uil uil-usd-circle features__icon"></i>
-                        <h3 className="features__title">Feature 3 - Lorem, ipsum dolor.</h3>
+                        <h3 className="features__title">Feature 3 - Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
 
                     </div>
 

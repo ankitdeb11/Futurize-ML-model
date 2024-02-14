@@ -14,13 +14,13 @@ const Trends = () => {
                     <ul className='news__title'>Breaking News <i class="uil uil-newspaper"></i>
 
 
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolorem ea minus eos! Non facilis reprehenderit tempora dicta tenetur explicabo beatae.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolorem ea minus eos! Non facilis reprehenderit tempora dicta tenetur explicabo beatae.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolorem ea minus eos! Non facilis reprehenderit tempora dicta tenetur explicabo beatae.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolorem ea minus eos! Non facilis reprehenderit tempora dicta tenetur explicabo beatae.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolorem ea minus eos! Non facilis reprehenderit tempora dicta tenetur explicabo beatae.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolorem ea minus eos! Non facilis reprehenderit tempora dicta tenetur explicabo beatae.</li>
 
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempore.</li>
 
 
                     </ul>
