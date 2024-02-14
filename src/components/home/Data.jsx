@@ -13,7 +13,7 @@ const Data = () => {
             <p className='home__description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate debitis ducimus maxime labore facere vel autem laborum reiciendis blanditiis? Atque.</p>
 
             <a href="#getStarted" className="button button--flex">
-                Get Started
+                Get started
             </a>
         </div>
     )

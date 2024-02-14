@@ -1,0 +1,49 @@
+import React from 'react';
+import "./footer.css";
+
+const Footer = () => {
+  return (
+    <footer>
+            <div className="footer__container container">
+                <h1 className="footer__title">Thanks for passing by. Happy Investing!</h1>
+
+                <ul className="footer__list">
+                    <li>
+                        <a href="#about" className="footer__link">Enquiries</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects" className="footer__link">Applications</a>
+                    </li>
+
+
+                </ul>
+
+                <div className="footer__social">
+                    <a href="https://stackoverflow.com/users/18478837/ankit-deb" className="footer__social-link" rel="noreferrer" target="_blank">
+                    <i class='bx bxl-stack-overflow' ></i>
+                    </a>
+
+                    <a href="https://discord.gg/Uf8KpEnwuH" className="footer__social-link" target="_blank" rel="noreferrer">
+                        <i class='bx bxl-discord-alt' ></i>
+                    </a>
+
+                    <a href="https://twitter.com/codewell11" className="footer__social-link" target="_blank" rel="noreferrer">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+
+                </div>
+
+
+                <span className='footer__copy'> 
+                Futurize Prototype. <br />
+                Made with <i class='bx bxl-react'></i> by Team 96 - VIT <br />
+                &#169; Ankit Deb 2024. All Rights Reserved.
+                </span>
+
+            </div>
+        </footer>
+  )
+}
+
+export default Footer
