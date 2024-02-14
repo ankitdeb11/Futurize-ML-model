@@ -9,7 +9,7 @@ const Socials = () => {
 
 
 
-      <a href="https://www.linkedin.com/in/ankitdeb11" className="home__social-icon" target="_blank" rel="noreferrer">
+      <a href="https://github.com/ankitdeb11/capstone_futurize" className="home__social-icon" target="_blank" rel="noreferrer">
       <i class='bx bxl-github' ></i>
       </a>
 
