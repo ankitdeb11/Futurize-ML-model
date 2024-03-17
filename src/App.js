@@ -18,10 +18,7 @@ function App() {
         <Home />
         <Features />
         <News />
-
         <About />
-
-
         <Footer />
 
       </main>
